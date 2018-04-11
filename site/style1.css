@@ -5,7 +5,6 @@
 	 background-color: #505050;
 	 text-align: center;
      padding-top: 10px;
-	 color: white; 
 }
 
 .block1 {
@@ -13,34 +12,41 @@
 	 margin-top: 20px;
 	 margin-left: 100px;
 	 width: 12%;
-	 height: 220px;
+	 height: 230px;
 	 background-color: #808080;
 	 text-align: center;
 	 color: white;
 	 padding-top: 20px;
 }
 
+.ramka0 {
+	 display: inline-block;
+	 width: 70%;
+	 height: auto;
+	 border-left: 2px solid white;
+}
+
 .menu {
      float: left;
-     padding-left: 20%;
+     padding-left: 10%;
      padding-top: 5px;
 }
 
 .button1 {
 	 float: left;
-	 padding-left: 20%;
+	 padding-left: 10%;
 	 padding-top: 10px;
 }
 
 .button3 {
 	 float: left;
-	 padding-left: 20%;
+	 padding-left: 10%;
 	 padding-top: 10px;
 }
 
 .button2 {
 	 float: left;
-	 padding-left: 20%;
+	 padding-left: 10%;
 	 padding-top: 100px;
 }
 
@@ -52,7 +58,7 @@ a {
 }
 
 a:hover {
-     color: gray;
+     color: #9C9C9C;
 }
 
 .block2 {
@@ -64,7 +70,6 @@ a:hover {
 	 background-color: #E6E6FA;
 	 text-align: left;
      vertical-align: top;
-	 color: white;
 	 padding: 20px;
      padding-top: 5px;
 	 font-family: verdana;
@@ -72,22 +77,28 @@ a:hover {
 
 h2 {
 	 font-size: 20px;
+	 margin-left: 20px;
 }
 
+
+
 .ramka1 {
-	 width: 100%;
-	 height: 220px;
-	 background-color: #B0C4DE;
+	 display: inline-block;
+	 width: auto;
+	 height: auto;
+	 background-color: white;
 	 padding-left: 5px;
-	 margin-top: 2px;
+	 margin-top: 2%;
+	 color: #505050;
+	 padding-top: -5px;
 }
 
 .ramka2 {
 	 width: 100%;
-	 height: 500px;
+	 height: 700px;
 	 background-color: white;
 	 margin-top: 30px;
-	 background: url("img/Picture1.png") no-repeat 50% 20%;
+	 background: url("img/Picture1.png") no-repeat 50% 30%;
 }
 
 .logo {
