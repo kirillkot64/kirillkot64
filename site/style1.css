@@ -1,73 +1,111 @@
 
 .header {
-	width: 100%;
-	height: 40px;
-	background-color: #505050;
-	text-align: center;
-    padding-top: 10px;
-	color: white; 
+	 width: 100%;
+	 height: 70px;
+	 background-color: #505050;
+	 text-align: center;
+     padding-top: 10px;
+	 color: white; 
 }
 
-.button1 {
+.block1 {
 	 float: left;
-	 padding-left: 60px;
-	 padding-top: 5px;
+	 margin-top: 20px;
+	 margin-left: 100px;
+	 width: 12%;
+	 height: 220px;
+	 background-color: #808080;
+	 text-align: center;
+	 color: white;
+	 padding-top: 20px;
 }
 
 .menu {
      float: left;
-     padding-left: 400px;
+     padding-left: 20%;
      padding-top: 5px;
 }
 
+.button1 {
+	 float: left;
+	 padding-left: 20%;
+	 padding-top: 10px;
+}
+
+.button3 {
+	 float: left;
+	 padding-left: 20%;
+	 padding-top: 10px;
+}
+
+.button2 {
+	 float: left;
+	 padding-left: 20%;
+	 padding-top: 100px;
+}
+
 a {
-	color: white;
-    text-decoration: none;
+	 color: white;
+     text-decoration: none;
+	 font-family: verdana;
+	 font-size: 17px;
 }
 
 a:hover {
-    color: gray;
-}
-
-a:active {
-    color: gray;
-}
-
-.block1 {
-	float: left;
-	margin-top: 20px;
-	margin-left: 150px;
-	width: 15%;
-	height: 1505px;
-	background-color: #8183A2;
-	text-align: center;
-	color: white;
-	padding-top: 20px;
+     color: gray;
 }
 
 .block2 {
-	float: left;
-	margin-left: 20px;
-	margin-top: 20px;
-	width: 50%;
-	height: 1500px;
-	background-color: #D7D8E0;
-	text-align: left;
-    vertical-align: top;
-	color: black;
-	padding: 20px;
-    padding-top: 5px;
+	 float: left;
+	 margin-left: 20px;
+	 margin-top: 20px;
+	 width: 60%;
+	 height: 1500px;
+	 background-color: #E6E6FA;
+	 text-align: left;
+     vertical-align: top;
+	 color: white;
+	 padding: 20px;
+     padding-top: 5px;
+	 font-family: verdana;
+}
+
+h2 {
+	 font-size: 20px;
+}
+
+.ramka1 {
+	 width: 100%;
+	 height: 220px;
+	 background-color: #B0C4DE;
+	 padding-left: 5px;
+	 margin-top: 2px;
+}
+
+.ramka2 {
+	 width: 100%;
+	 height: 500px;
+	 background-color: white;
+	 margin-top: 30px;
+	 background: url("img/Picture1.png") no-repeat 50% 20%;
+}
+
+.logo {
+	 width: 300px;
+	 height: 60px;
+	 background: url("img/logo.png") no-repeat;
+	 padding-left: 10px;
 }
 
 .footer {
-	clear: both;
-	width: 100%;
-	height: 40px;
-	margin-top: 1580px;
-	background-color: #505050;
-	text-align: center;
-	padding-top: 10px;
-	color: white;
+	 clear: both;
+	 width: 100%;
+	 height: 40px;
+	 margin-top: 1580px;
+	 background-color: #505050;
+	 text-align: center;
+	 padding-top: 10px;
+	 color: white;
 }	
 
 

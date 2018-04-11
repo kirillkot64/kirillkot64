@@ -1,4 +1,3 @@
-
 .header {
 	 width: 100%;
 	 height: 70px;
@@ -64,11 +63,12 @@ a:hover {
 	 background-color: #E6E6FA;
 	 text-align: left;
      vertical-align: top;
-	 color: white;
 	 padding: 20px;
      padding-top: 5px;
 	 font-family: verdana;
+	 color: black;
 }
+
 
 h2 {
 	 font-size: 20px;
