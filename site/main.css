@@ -1,88 +1,43 @@
 
 .header {
 	 width: 100%;
-	 height: 70px;
-	 background-color: #505050;
+	 height: 60px;
+	 background-color: #f6ab15;
 	 text-align: center;
      padding-top: 10px;
 }
 
-.logo {
+.logo2{
 	 width: 300px;
-	 height: 60px;
-	 background: url("img/logo.png") no-repeat;
+	 height: 70px;
+	 background: url("img/logo2.png") no-repeat;
 	 padding-left: 10px;
+	 margin-top: 5px;
+	 margin-left: 7%;
 }
 
 .reg {
 	 float: right;
-	 padding-top: 2%;
+	 padding-top: 1.5%;
 	 padding-right: 2%;
 }
 
-.block1 {
-	 position: fixed;
-	 right: 80%;
-	 float: left;
-	 margin-top: 20px;
-	 margin-left: 100px;
-	 width: 12%;
-	 height: 230px;
-	 background-color: #808080;
-	 text-align: center;
-	 color: white;
-	 padding-top: 20px;
-}
-
-.ramka0 {
-	 display: inline-block;
-	 width: 70%;
-	 height: auto;
-	 border-left: 2px solid white;
-}
-
-.menu {
-     float: left;
-     padding-left: 10%;
-     padding-top: 5px;
-}
-
-.button1 {
-	 float: left;
-	 padding-left: 10%;
-	 padding-top: 10px;
-}
-
-.button3 {
-	 float: left;
-	 padding-left: 10%;
-	 padding-top: 10px;
-}
-
-.button2 {
-	 float: left;
-	 padding-left: 10%;
-	 padding-top: 100px;
-}
-
-a {
-	 color: white;
-     text-decoration: none;
+.reg a {
 	 font-family: verdana;
 	 font-size: 17px;
+	 color: white;
+	 text-decoration: none;
 }
 
-a:hover {
-     color: #9C9C9C;
+.reg a:hover {
+	 color: #FFE185;
 }
 
 .block2 {
-	 float: right;
-	 margin-right: 16%;
-	 margin-top: 20px;
-	 width: 60%;
+	 width: 55%;
+	 margin: 10px auto;
 	 height: 1500px;
-	 background-color: #E6E6FA;
+	 background-color: #FFF6CC;
 	 text-align: left;
      vertical-align: top;
 	 padding: 20px;
@@ -95,8 +50,6 @@ h2 {
 	 margin-left: 20px;
 }
 
-
-
 .ramka1 {
 	 display: inline-block;
 	 width: auto;
@@ -108,23 +61,76 @@ h2 {
 	 padding-top: -5px;
 }
 
-.ramka2 {
-	 width: 100%;
-	 height: 700px;
-	 background-color: white;
-	 margin-top: 30px;
-	 background: url("img/Picture1.png") no-repeat 50% 30%;
-}
-
 .footer {
 	 clear: both;
 	 width: 100%;
 	 height: 40px;
-	 margin-top: 1580px;
-	 background-color: #505050;
+	 margin-top: 10px;
+	 background-color: #f6ab15;
 	 text-align: center;
 	 padding-top: 10px;
 	 color: white;
 }	
 
+.main-menu {
+	 position: fixed;
+	 margin-left: 7%;
+	 width: 180px;
+	 padding: 0;
+	 margin-top: 10px;
+	 margin-legt: 40px;
+	 list-style: none;
+	 background-color: #FFF6CC;
+}
 
+.main-menu a {
+	 display: block;
+	 color: #505050;
+	 text-decoration: none;
+	 padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 20px;	 
+	 margin-bottom: -1px;
+	 font-family: verdana;
+	 font-size: 17px;
+	 border-bottom: 2px solid #FFDA61;
+}
+
+.main-menu .active a:hover {
+	 background-color: #FFCC00;
+}
+
+.main-menu a:hover {
+	 background-color: #FFE185;
+}
+
+.main-menu .active {
+	 background-color: #F4A900;
+}
+
+.main-menu .active a {
+     color: white;
+	 border-bottom: 2px solid #F4A900;
+}
+
+.main-menu > li {
+	 position: relative;
+}
+
+.main-menu .sub-menu {
+	 position: absolute;
+	 z-index: 10;
+	 top: 10px;
+	 left: 130px;
+	 margin: 0;
+	 padding: 0;
+	 list-style: none;
+	 width: 130px;
+	 background-color: #ffffff;
+	 border: 1px solid #F4A900;
+	 display: none;
+}
+
+.main-menu  > li:hover .sub-menu {
+	 display: block;
+}
